@@ -1,0 +1,19 @@
+Package: teresamelling
+Type: Package
+Title: Study of the Number of Airline Passengers in the UK During Selected Months 
+Version: 0.0.1
+Authors@R: person("Teresa", "Melling", email = "teresa.melling@tum.de", 
+                 role = c("aut", "cre"))
+Maintainer: Teresa Melling <teresa.melling@tum.de>
+Description: This package includes a data set containing
+    the number of airline passengers in the UK during June,
+    July and August in 2016-2018. The generic function within
+    the package allows you to calculate the mean number of 
+    passengers per year in the summer months. In addition 
+    S3 methods have been selected for different data types.
+Licence: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat
